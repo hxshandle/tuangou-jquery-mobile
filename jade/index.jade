@@ -1,0 +1,85 @@
+doctype html
+html
+  include _header
+  body
+    .page(data-role="page")
+      img.wf(src="img/0.jpg")
+      .row.baoming
+        img(src="img/pen.png")
+        span 我要报名
+      .row
+        form#form1(method="post" action="result.html")
+          .outer
+            .ipt-group
+              .pic.fl
+                img(src="img/i1.png")
+              .txt.fl 客户姓名
+              input.fl(placeholder="您的姓名" type="text")
+            .clear
+            .ipt-group
+              .pic.fl
+                img(src="img/i2.png")
+              .txt.fl 手机号码
+              input.fl(placeholder="手机号码" type="text")
+            .clear
+            .ipt-group
+              .pic.fl
+                img(src="img/i3.png")
+              .txt.fl 所在城区
+              .ui-sel
+                select#DropDownList1(name="DropDownList1")
+                  option(value="3") 西湖区
+                  option(value="4") 上城区
+                  option(value="5") 下城区
+                  option(value="6") 拱墅区
+                  option(value="7") 江干区
+                  option(value="8") 滨江区
+                  option(value="9") 萧山市
+                  option(value="10") 富阳市
+                  option(value="11") 余杭区
+                  option(value="12") 临安市
+            .clear
+            .ipt-group
+              .pic.fl
+                img(src="img/i4.png")
+              .txt.fl 意向车型
+              .ui-sel
+                select#DropDownList3(name="DropDownList3")
+                  option(value="3") 凯越
+                  option(value="4") 英朗XT
+                  option(value="5") 英朗GT
+                  option(value="6") 昂科拉
+                  option(value="7") 君威
+                  option(value="8") 君越
+                  option(value="9") GL8
+                  option(value="10") 昂科雷
+            .clear
+          .ui-btn1
+            input.ui-corner-all(type="submit" value="点击报名获取优惠劵")
+          .hp-link
+            img.show-info(src="img/lnk.png")
+          .page-mask
+          .info-box
+            .info-header
+              span.fl 活动说明
+              a.fr.info-box-close(href="javascript:void(0)") 关闭
+              .clear
+            .info-main
+              p.h1 血拼再临，吹响特惠升级集结号！
+              p.c1 别克终极血拼第二季优惠进化强势归来!
+              p 这一次我们打破了陈规，撕破了脸皮，为的是给您最优惠的折扣让利。感谢您的关注与支持！
+              p.y 这一季，置换依旧给力！
+              p 最高8000置换金，您敢换，我们就敢给！
+              p.y 这一季，车牌加倍放送！
+              p 什么？3块不够多？！本次6块车牌大放送！优惠加码，惊喜翻倍！
+              p.y 这一季，给自己N种血拼的理由！
+              p 阶梯礼、抽奖礼，现场9重大礼，给您一个无法抗拒的置换理由！
+              p.y 这一季，您不是一个人在战斗！
+              p 别克人保强强联合，倾力助阵，全程为您保驾护航！
+              p.y 这一季，我们与您不见不散！
+              .image-outer
+                img.wf(src="img/0.jpg")
+            .hp-link
+              img.show-info(src="img/lnk3.png")
+
+
